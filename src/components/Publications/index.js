@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import * as usersActions from '../../actions/usersActions'
-import usuariosReducer from "../../reducers/usuariosReducer";
 
 class Publications extends Component {
     componentDidMount() {
