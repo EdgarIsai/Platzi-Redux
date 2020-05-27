@@ -16,7 +16,7 @@ export const bringAll = () => async (dispatch) => {
     catch (error) {
         dispatch({
             type: ERROR,
-            payload: error.message
+            payload: "User information not available"
         })
     }
 }
